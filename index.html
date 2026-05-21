@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="快速搜索引擎 - 一键搜索，畅享互联网">
+    <title>快速搜索 - 你的搜索引擎入口</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 顶部广告位 (728x90) -->
+    <div class="ad-banner top-ad">
+        <div class="ad-placeholder">
+            <span>广告位 728x90 - 请在此处粘贴 Google AdSense 代码</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <h1>QuickSearch</h1>
+            <p>快速搜索，直达信息</p>
+        </div>
+
+        <!-- 搜索框 -->
+        <div class="search-container">
+            <div class="search-engine-selector">
+                <select id="searchEngine">
+                    <option value="google">Google</option>
+                    <option value="bing">必应 Bing</option>
+                    <option value="baidu">百度</option>
+                    <option value="duckduckgo">DuckDuckGo</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="输入搜索内容..." autocomplete="off">
+                <button id="searchBtn">搜索</button>
+            </div>
+        </div>
+
+        <!-- 热门搜索 -->
+        <div class="hot-searches">
+            <h3>🔥 热门搜索</h3>
+            <div class="tags" id="hotTags">
+                <a href="#" data-search="ChatGPT">ChatGPT</a>
+                <a href="#" data-search="最新新闻">最新新闻</a>
+                <a href="#" data-search="天气预报">天气预报</a>
+                <a href="#" data-search="股票行情">股票行情</a>
+                <a href="#" data-search="AI教程">AI教程</a>
+                <a href="#" data-search="在线工具">在线工具</a>
+                <a href="#" data-search="编程教程">编程教程</a>
+                <a href="#" data-search="免费软件">免费软件</a>
+            </div>
+        </div>
+
+        <!-- 分类导航 -->
+        <div class="categories">
+            <h3>📂 常用网站</h3>
+            <div class="category-grid">
+                <div class="category">
+                    <h4>🔍 搜索引擎</h4>
+                    <a href="https://www.google.com" target="_blank">Google</a>
+                    <a href="https://www.bing.com" target="_blank">必应</a>
+                    <a href="https://www.baidu.com" target="_blank">百度</a>
+                </div>
+                <div class="category">
+                    <h4>📰 新闻资讯</h4>
+                    <a href="https://news.google.com" target="_blank">Google新闻</a>
+                    <a href="https://www.sina.com.cn" target="_blank">新浪</a>
+                    <a href="https://news.sohu.com" target="_blank">搜狐</a>
+                </div>
+                <div class="category">
+                    <h4>🎮 娱乐视频</h4>
+                    <a href="https://www.youtube.com" target="_blank">YouTube</a>
+                    <a href="https://www.bilibili.com" target="_blank">B站</a>
+                    <a href="https://www.douyin.com" target="_blank">抖音</a>
+                </div>
+                <div class="category">
+                    <h4>🛒 购物电商</h4>
+                    <a href="https://www.amazon.com" target="_blank">亚马逊</a>
+                    <a href="https://www.taobao.com" target="_blank">淘宝</a>
+                    <a href="https://www.jd.com" target="_blank">京东</a>
+                </div>
+                <div class="category">
+                    <h4>💼 学习工具</h4>
+                    <a href="https://www.coursera.org" target="_blank">Coursera</a>
+                    <a href="https://github.com" target="_blank">GitHub</a>
+                    <a href="https://stackoverflow.com" target="_blank">StackOverflow</a>
+                </div>
+                <div class="category">
+                    <h4>💰 金融理财</h4>
+                    <a href="https://finance.sina.com.cn" target="_blank">新浪财经</a>
+                    <a href="https://xueqiu.com" target="_blank">雪球</a>
+                    <a href="https://www.eastmoney.com" target="_blank">东方财富</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 侧边广告位 -->
+        <div class="ad-sidebar">
+            <div class="ad-placeholder">
+                <span>广告位 300x250</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部广告位 -->
+    <div class="ad-banner bottom-ad">
+        <div class="ad-placeholder">
+            <span>广告位 728x90 - 请在此处粘贴 Google AdSense 代码</span>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2026 QuickSearch. <a href="/privacy.html">隐私政策</a> | <a href="/terms.html">使用条款</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
